@@ -3012,7 +3012,6 @@ function interpreter(){
       else
       while (t < h2) {
         t++;
-        //var s1 = new record(s[h1].i, s[h1].r, s[h1].b, s[h1].c);
         s[t] = s[h1];
         h1++;
       }
@@ -3023,7 +3022,6 @@ function interpreter(){
       h2 = s[t];
       h3 = h1 + ir.y;
       while (h1 < h3){
-        //var s1 = new record(s[h2].i, s[h2].r, s[h2].b, s[h2].c);
         s[h1] = s[h2];
         h1++;
         h2++;
